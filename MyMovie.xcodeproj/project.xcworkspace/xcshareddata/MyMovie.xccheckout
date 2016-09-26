@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>13137952-B581-4204-89A1-F0C184455DFE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyMovie</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>50BDFCB1E1DEA6269B3ED2F1315E74B862DFF7AA</key>
+		<string>https://git.oschina.net/fengzipiaoling/MyMovie.git</string>
+		<key>6E3ADD0F1A3813AE5BF19FFBDEE899BFE554BD16</key>
+		<string>https://github.com/fengzipiaoling/MyMovie01.git</string>
+		<key>8B21505AED5B696D5F3D88BE36409421826BD979</key>
+		<string>https://github.com/fengzipiaoling/movie.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyMovie.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>50BDFCB1E1DEA6269B3ED2F1315E74B862DFF7AA</key>
+		<string>../../..</string>
+		<key>6E3ADD0F1A3813AE5BF19FFBDEE899BFE554BD16</key>
+		<string>../../../MyMovie</string>
+		<key>8B21505AED5B696D5F3D88BE36409421826BD979</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fengzipiaoling/movie.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8B21505AED5B696D5F3D88BE36409421826BD979</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>50BDFCB1E1DEA6269B3ED2F1315E74B862DFF7AA</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8B21505AED5B696D5F3D88BE36409421826BD979</string>
+			<key>IDESourceControlWCCName</key>
+			<string>movie</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6E3ADD0F1A3813AE5BF19FFBDEE899BFE554BD16</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyMovie</string>
+		</dict>
+	</array>
+</dict>
+</plist>

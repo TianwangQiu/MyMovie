@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E053AFFF-5DD7-435A-93C6-938E702C377B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HWMovie</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E0ADED77316C97C76B074D64B72503A541D0E345</key>
+		<string>https://git.oschina.net/mark.guo/Class.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HWMovie/HWMovie.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E0ADED77316C97C76B074D64B72503A541D0E345</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/mark.guo/Class.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E0ADED77316C97C76B074D64B72503A541D0E345</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E0ADED77316C97C76B074D64B72503A541D0E345</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Class</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TopMovieCell" id="gTV-IL-0wX" customClass="TopMovieCell">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="144"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="100" height="144"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DIU-TK-NpF">
+                        <rect key="frame" x="0.0" y="0.0" width="100" height="110"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="标题" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gAg-mc-Hxa">
+                        <rect key="frame" x="0.0" y="89" width="100" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="0kM-9B-s5P"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21" id="YiJ-zQ-WLZ"/>
+                            <constraint firstAttribute="height" constant="21" id="rcg-Pa-AbU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.95686280729999995" green="1" blue="0.96078437569999997" alpha="1" colorSpace="deviceRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="YiJ-zQ-WLZ"/>
+                                <exclude reference="rcg-Pa-AbU"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xEk-qC-NoA" customClass="StarView">
+                        <rect key="frame" x="0.0" y="121" width="76" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="pzR-lL-nfq"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9.4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PqD-eb-QvG">
+                        <rect key="frame" x="77" y="119" width="23" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="5Fc-9U-S5g"/>
+                            <constraint firstAttribute="width" constant="23" id="CtL-Pl-wZw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="DIU-TK-NpF" firstAttribute="width" secondItem="gAg-mc-Hxa" secondAttribute="width" id="7Jx-DA-KIr"/>
+                <constraint firstAttribute="bottom" secondItem="PqD-eb-QvG" secondAttribute="bottom" constant="4" id="DG4-CP-Ncj"/>
+                <constraint firstAttribute="bottom" secondItem="xEk-qC-NoA" secondAttribute="bottom" constant="8" id="HS7-bA-dD6"/>
+                <constraint firstItem="DIU-TK-NpF" firstAttribute="bottom" secondItem="gAg-mc-Hxa" secondAttribute="bottom" id="HcX-Rd-86m"/>
+                <constraint firstItem="PqD-eb-QvG" firstAttribute="leading" secondItem="xEk-qC-NoA" secondAttribute="trailing" constant="1" id="Lvv-3T-fjB"/>
+                <constraint firstItem="xEk-qC-NoA" firstAttribute="top" secondItem="DIU-TK-NpF" secondAttribute="bottom" constant="11" id="Ncf-4D-Tck"/>
+                <constraint firstItem="DIU-TK-NpF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="OPE-KJ-fwF"/>
+                <constraint firstItem="DIU-TK-NpF" firstAttribute="bottom" secondItem="gAg-mc-Hxa" secondAttribute="bottom" id="PzV-C1-OxD"/>
+                <constraint firstAttribute="trailing" secondItem="PqD-eb-QvG" secondAttribute="trailing" id="SJi-7Y-snS"/>
+                <constraint firstAttribute="trailing" secondItem="gAg-mc-Hxa" secondAttribute="trailing" id="W4B-5l-uvT"/>
+                <constraint firstItem="gAg-mc-Hxa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="f6v-8T-bcp"/>
+                <constraint firstItem="gAg-mc-Hxa" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ft8-rc-cN6"/>
+                <constraint firstItem="DIU-TK-NpF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="hqb-fc-L4i"/>
+                <constraint firstAttribute="trailing" secondItem="DIU-TK-NpF" secondAttribute="trailing" id="ibF-Ul-mqd"/>
+                <constraint firstAttribute="trailing" secondItem="gAg-mc-Hxa" secondAttribute="trailing" id="lNp-Zw-WQa"/>
+                <constraint firstAttribute="bottom" secondItem="PqD-eb-QvG" secondAttribute="bottom" constant="8" id="otw-mB-gJS"/>
+                <constraint firstItem="DIU-TK-NpF" firstAttribute="leading" secondItem="gAg-mc-Hxa" secondAttribute="leading" id="tzG-g9-kNe"/>
+                <constraint firstItem="DIU-TK-NpF" firstAttribute="bottom" secondItem="gAg-mc-Hxa" secondAttribute="bottom" id="vad-vF-5T8"/>
+                <constraint firstItem="xEk-qC-NoA" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wvJ-J9-zaT"/>
+            </constraints>
+            <size key="customSize" width="109" height="144"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="7Jx-DA-KIr"/>
+                    <exclude reference="HcX-Rd-86m"/>
+                    <exclude reference="PzV-C1-OxD"/>
+                    <exclude reference="tzG-g9-kNe"/>
+                    <exclude reference="ft8-rc-cN6"/>
+                    <exclude reference="lNp-Zw-WQa"/>
+                    <exclude reference="otw-mB-gJS"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="averageLable" destination="PqD-eb-QvG" id="J68-tA-CF6"/>
+                <outlet property="imageView" destination="DIU-TK-NpF" id="By6-AI-b7B"/>
+                <outlet property="starView" destination="xEk-qC-NoA" id="WfX-Da-md3"/>
+                <outlet property="titleLable" destination="gAg-mc-Hxa" id="LP8-E7-VDo"/>
+            </connections>
+            <point key="canvasLocation" x="196" y="177"/>
+        </collectionViewCell>
+    </objects>
+</document>
